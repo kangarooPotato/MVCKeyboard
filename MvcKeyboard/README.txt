@@ -60,3 +60,13 @@ Checked SQL Server Express LocalDB. I can see the all data. COOL!
 
 - 21:23
 We solved the problem of missing a comma (,) and not updating the database at all.
+
+- 21:30
+I can see all the data I put in SeedData..!!!
+Move on perfectly to the next chapter :)
+
+- 21:39
+I slightly touched the layout and changed the color of Nav color and the font to red.
+
+- 21:47
+Controller actions and views part is done!
