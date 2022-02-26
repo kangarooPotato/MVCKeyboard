@@ -76,3 +76,25 @@ Now we are going to Add search part haha.
 Add search is done and I checked now, and there are many warnings.
 Seeing that it says 0/11132, this reminds me of a professor who will sigh.
 I'm sorry in advance.
+
+but it works very well. cool function!
+
+- 23:03
+add a rating property to the Movie Model and Build the app.
+(don't forget the commend! it is Ctrl+Shift+B)
+
+- 23:07
+I didn't know why the rating wasn't displayed.
+and i found the solution! if we erase all the data, the rating will be added when the form that we made comes up again..!!! awsome!!!
+Add a new field done
+
+It's fun to make codes, find problems, and build them again really!!! haha
+:)
+
+- 23:13
+Add validation is done. so far so good!
+
+- 23:16
+Examine Details and Delete is finished :D
+
+hahaa!! let's make about us page

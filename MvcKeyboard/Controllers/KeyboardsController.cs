@@ -78,7 +78,8 @@ namespace MvcKeyboard.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,ReleaseDate,Color,Switch,Type,Price")] Keyboard keyboard)
+        public async Task<IActionResult> Create(
+            [Bind("Id,Name,ReleaseDate,Color,Switch,Type,Price,Rating")] Keyboard keyboard)
         {
             if (ModelState.IsValid)
             {
@@ -110,7 +111,7 @@ namespace MvcKeyboard.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ReleaseDate,Color,Switch,Type,Price")] Keyboard keyboard)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ReleaseDate,Color,Switch,Type,Price,Rating")] Keyboard keyboard)
         {
             if (id != keyboard.Id)
             {

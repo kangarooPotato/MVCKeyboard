@@ -23,62 +23,68 @@ namespace MvcKeyboard.Models
                 context.Keyboard.AddRange(
                     new Keyboard
                     {
-                        Name = "mongi-91",
+                        Name = "mongi-01",
+                        ReleaseDate = DateTime.Parse("1972-2-12"),
+                        Color = "Black",
+                        Switch = "Cherry",
+                        Type = "Click",
+                        Rating = "A",
+                        Price = 98.99M
+                    },
+
+                    new Keyboard
+                    {
+                        Name = "mongi-12",
                         ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Color = "key color",
-                        Switch = "switch name",
-                        Type = "key type",
+                        Color = "Orange",
+                        Switch = "Kaihua",
+                        Type = "Click",
+                        Rating = "A",
+                        Price = 21.99M
+                    },
+
+                    new Keyboard
+                    {
+                        Name = "mongi-23",
+                        ReleaseDate = DateTime.Parse("2001-6-03"),
+                        Color = "white",
+                        Switch = "Kaihua",
+                        Type = "Linear",
+                        Rating = "B",
+                        Price = 33.99M
+                    },
+
+                    new Keyboard
+                    {
+                        Name = "mongi-46",
+                        ReleaseDate = DateTime.Parse("2006-2-12"),
+                        Color = "Blue",
+                        Switch = "Kaihua",
+                        Type = "Tactile",
+                        Rating = "S",
+                        Price = 29.99M
+                    },
+
+                    new Keyboard
+                    {
+                        Name = "mongi-77",
+                        ReleaseDate = DateTime.Parse("2011-2-12"),
+                        Color = "Red",
+                        Switch = "Panda",
+                        Type = "Tactile",
+                        Rating = "D",
                         Price = 7.99M
                     },
 
                     new Keyboard
                     {
-                        Name = "mongi-92",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Color = "key color",
-                        Switch = "switch name",
-                        Type = "key type",
-                        Price = 7.99M
-                    },
-
-                    new Keyboard
-                    {
-                        Name = "mongi-93",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Color = "key color",
-                        Switch = "switch name",
-                        Type = "key type",
-                        Price = 7.99M
-                    },
-
-                    new Keyboard
-                    {
-                        Name = "mongi-94",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Color = "key color",
-                        Switch = "switch name",
-                        Type = "key type",
-                        Price = 7.99M
-                    },
-
-                    new Keyboard
-                    {
-                        Name = "mongi-95",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Color = "key color",
-                        Switch = "switch name",
-                        Type = "key type",
-                        Price = 7.99M
-                    },
-
-                    new Keyboard
-                    {
-                        Name = "mongi-96",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Color = "key color",
-                        Switch = "switch name",
-                        Type = "key type",
-                        Price = 7.99M
+                        Name = "JJ.98K",
+                        ReleaseDate = DateTime.Parse("2021-2-12"),
+                        Color = "RED",
+                        Switch = "Damos",
+                        Type = "Soft Click",
+                        Rating = "C",
+                        Price = 47.99M
                     }
 
                 );
