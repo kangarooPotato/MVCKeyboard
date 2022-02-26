@@ -54,3 +54,9 @@ Well, problems always happen... haha :(
 
 - 21:02
 Honestly, I don't know the reason, but I tried several times, and it worked.
+
+- 21:13
+Checked SQL Server Express LocalDB. I can see the all data. COOL!
+
+- 21:23
+We solved the problem of missing a comma (,) and not updating the database at all.
