@@ -70,3 +70,9 @@ I slightly touched the layout and changed the color of Nav color and the font to
 
 - 21:47
 Controller actions and views part is done!
+Now we are going to Add search part haha.
+
+- 22:23
+Add search is done and I checked now, and there are many warnings.
+Seeing that it says 0/11132, this reminds me of a professor who will sigh.
+I'm sorry in advance.

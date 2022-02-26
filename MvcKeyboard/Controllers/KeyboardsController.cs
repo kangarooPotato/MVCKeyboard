@@ -19,10 +19,34 @@ namespace MvcKeyboard.Controllers
             _context = context;
         }
 
-        // GET: Keyboards
-        public async Task<IActionResult> Index()
+        // GET: Movies
+        public async Task<IActionResult> Index(string keyboardType, string searchString)
         {
-            return View(await _context.Keyboard.ToListAsync());
+            // Use LINQ to get list of types.
+            IQueryable<string> typeQuery = from k in _context.Keyboard
+                                            orderby k.Type
+                                            select k.Type;
+
+            var keyboards = from k in _context.Keyboard
+                         select k;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                keyboards = keyboards.Where(s => s.Name.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(keyboardType))
+            {
+                keyboards = keyboards.Where(x => x.Type == keyboardType);
+            }
+
+            var keyboardTypeVM = new KeyboardTypeViewModel
+            {
+                Types = new SelectList(await typeQuery.Distinct().ToListAsync()),
+                Keyboards = await keyboards.ToListAsync()
+            };
+
+            return View(keyboardTypeVM);
         }
 
         // GET: Keyboards/Details/5
