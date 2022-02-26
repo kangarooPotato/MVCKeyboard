@@ -38,3 +38,19 @@ However, it had to be made of "MvcKeyboard" based on the tutorial, so I think th
 I don't have any more options
 ...Erase all files and restart the project!!!!!!
 
+- 20:47
+Added a controller and view parts
+
+- 20:53
+Added NuGet packages
+Based on your ability to solve problems,
+I installed version 5.0.14 and 5.0.2
+
+- 20:57
+I hope the addition of scaffolding works well.
+
+- 20:59
+Well, problems always happen... haha :(
+
+- 21:02
+Honestly, I don't know the reason, but I tried several times, and it worked.
